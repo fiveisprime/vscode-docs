@@ -30,8 +30,8 @@ deploy to Azure.
 ### Sign in
 
 Once the extension is installed, log into your Azure account - in the Azure App
-Service explorer viewlet, click "Sign in to Azure..." and follow
-the instructions.
+Service extension explorer, click "Sign in to Azure..." and follow the
+instructions.
 
 ## Prerequisite Check
 
@@ -39,7 +39,7 @@ Before we continue, ensure that you have all the prerequisites installed and
 configured.
 
 In VS Code, you should see your Azure email address in the Status Bar and your
-subscription in the App Service explorer viewlet.
+subscription in the App Service extension explorer.
 
 ----
 

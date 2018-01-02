@@ -12,8 +12,8 @@ In this step, you learn how to view (or "tail") the logs from the running
 Website. Any calls to `console.log()` in the site are displayed in the output
 window in VS Code.
 
-Find the app in the Azure App Service explorer viewlet, right-click the app, and
-choose "View Streaming Logs".
+Find the app in the Azure App Service explorer, right-click the app, and choose
+"View Streaming Logs".
 
 When prompted, choose to enable logging and restart the application. Once the
 app is restarted, the VS Code output window opens with a connection to the log

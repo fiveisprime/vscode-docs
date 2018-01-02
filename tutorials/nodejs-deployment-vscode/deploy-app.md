@@ -14,8 +14,8 @@ app is zipped and deployed to an Azure Web App on Linux.
 
 # Deploy using the Azure App Service Extension
 
-In the Azure App Service extension explorer viewlet, click the blue up arrow
-icon to deploy your app to Azure.
+In the Azure App Service extension explorer, click the blue up arrow icon to
+deploy your app to Azure.
 
 ![Deploy to Web App](images/nodejs-deployment-vscode/deploy.png)
 
