@@ -8,14 +8,14 @@ DateApproved: 12/18/2017
 
 # Deploy the Website
 
-In this step, you will deploy your Node.js website using Visual Studio Code and
-the Azure App Service extension. You will use the most basic deployment model
-where your app is zipped and deployed to the Website.
+In this step, you deploy your Node.js website using VS Code and the Azure App
+Service extension. This tutorial uses the most basic deployment model where your
+app is zipped and deployed to an Azure Web App on Linux.
 
 # Deploy using the Azure App Service Extension
 
-In the Azure App Service extension viewlet, click the blue up arrow icon to
-deploy your app to Azure.
+In the Azure App Service extension explorer viewlet, click the blue up arrow
+icon to deploy your app to Azure.
 
 ![Deploy to Web App](images/nodejs-deployment-vscode/deploy.png)
 
@@ -27,27 +27,27 @@ Web App".
 
 ![Create New Web App](images/nodejs-deployment-vscode/create-app.png)
 
-Next, you'll give your app a **unique** name and set up a resource group and
-App Service Plan. For this tutorial, we'll use the default names for the
-resource group and plan to keep things simple and launch the app in `West US`.
+Next, give your app a **unique** name and set up a resource group and App
+Service Plan. For this tutorial, use the default names for the resource group
+and plan to keep things simple and launch the app in `West US`.
 
-Once created, your app will be accessible via
-http://**unique-name**.azurewebsites.net. In this example, we'll call it
+Once created, your app is accessible via
+http://**unique-name**.azurewebsites.net. In this example, I called it
 `practical-mustache`.
 
 ![Create and Deploy](images/nodejs-deployment-vscode/create.gif)
 
 A "Resource Group" is essentially a named collection of all our application's
 resources in Azure. For example, a Resource Group can contain a reference to a
-website, a database, and an Azure function.
+website, a database, and an Azure Function.
 
 An "App Service Plan" defines the physical resources that will be used to host
 our Website. In this walkthrough, we will use a **Basic** hosting plan on
-**Linux** infrastructure, which means our site will be hosted on a Linux
+**Linux** infrastructure, which means the site will be hosted on a Linux
 machine alongside other websites. You can scale up and be the only site running
 on a machine later in the Azure Portal.
 
-Once created, you'll be prompted to deploy the app, choose yes.
+Once created, you're prompted to deploy the app, choose yes.
 
 ![Deploy the App](images/nodejs-deployment-vscode/deploy-prompt.png)
 

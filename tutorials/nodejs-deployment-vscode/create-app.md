@@ -32,7 +32,7 @@ can run it from anywhere.
 
 ## Scaffold a New Application
 
-We can now scaffold a new Express application called `myExpressApp` by running:
+Next, scaffold a new Express application called `myExpressApp` by running:
 
 ```bash
 $ express myExpressApp --view pug --git

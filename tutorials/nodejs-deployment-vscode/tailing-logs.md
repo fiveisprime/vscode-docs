@@ -8,21 +8,23 @@ DateApproved: 12/18/2017
 
 # Viewing Logs
 
-In this step, you will view (or "tail") the logs from the running Website. Any
-calls to `console.log()` in the site will be displayed in the output window in
-VS Code.
+In this step, you learn how to view (or "tail") the logs from the running
+Website. Any calls to `console.log()` in the site are displayed in the output
+window in VS Code.
 
 Find the app in the Azure App Service explorer viewlet, right-click the app, and
 choose "View Streaming Logs".
 
-When prompted, choose to enable logging and restart the application. This will
-open the output window in VS Code and connect to the log stream.
+When prompted, choose to enable logging and restart the application. Once the
+app is restarted, the VS Code output window opens with a connection to the log
+stream.
 
 ![View Streaming Logs](images/nodejs-deployment-vscode/view-logs.png)
 
 ![Enable Logging and Restart](images/nodejs-deployment-vscode/enable-restart.png)
 
-After a few seconds, you should see a message indicating that you are connected to the log-streaming service.
+After a few seconds, you will see a message indicating that you are connected to
+the log-streaming service.
 
 ```bash
 Connecting to log-streaming service...
@@ -30,7 +32,7 @@ Connecting to log-streaming service...
 2017-12-21 17:33:56.500 INFO  - Container logs
 ```
 
-Refresh the page a few times in the browser and you'll see log output.
+Refresh the page a few times in the browser to see log output.
 
 ```bash
 2017-12-21 17:35:17.774 INFO  - Container logs
@@ -53,7 +55,7 @@ Next, check out the other Azure extensions.
 * [Azure CLI Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azurecli)
 * [Azure Resource Manager (ARM) Tools](https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools)
 
-Or grab them all by installing the
+Or get them all by installing the
 [Node.js Extension Pack for Azure](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack).
 
 ## Learn More at [docs.microsoft.com](https://docs.microsoft.com)
